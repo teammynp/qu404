@@ -1,0 +1,23 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: seagreen;
+}
+
+.hesdercs {
+    font-size: 50px;
+    background-color: black;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: hotpink;
+}

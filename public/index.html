@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+nav a {
+  display: block;
+  color: rgba(85, 85, 85, 0.452);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+lu a.active {
+  background-color: rgba(85, 85, 85, 0.466);
+  color: white;
+}
+
+lu a:hover:not(.active) {
+  background-color: rgba(85, 85, 85, 0.5);
+  color: white;
+}
+
+    .lu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(197, 197, 197, 0.411);
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color:#666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 20%;
+      height: 460px;
+      /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 80%;
+      background-color: #f1f1f16b;
+      height: 460px;
+      /* only for demonstration, should be removed */
+    }
+
+    /* Clear floats after the columns */
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .imgcenter {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .container {
+    width: 1500px;
+    margin-top: -35px;
+    text-align: right;
+  }
+  h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    size: 150px;
+    fill: #294F6D;
+  }
+  div {
+    width: 500px;
+    height: 50px;
+  }
+  h1 {
+    text-align: center;
+    fill: 02111 D;
+  }
+  .search input[type="search"] {
+    width: 400px;
+    height: 50px;
+  }
+  </style>
+</head>
+
+<body>
+
+  <body background="E:\HTML101\public\images\football-2235372_1280.jpg"></body>
+
+  <h2>Just get it</h2>
+  <div class="container"
+    <form action="/worldoffragrance">
+      <input name="search" />
+      <input type="submit" value="GO" />
+    </form>
+  </div>
+  <lu>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </lu>
+  <header>
+    <h2>
+      <marquee direction="left">โปรโมชั่น เดือน ก.ค. ลด 50%&emsp;&emsp;</marquee>
+    </h2>
+    
+  </header>
+
+  <section>
+    <nav>
+        <lu><a class="active" href="#home">Home</a></lu>
+        <lu><a href="#news">News</a></lu>
+        <lu><a href="#contact">Contact</a></lu>
+        <lu><a href="#about">About</a></lu>    
+    </nav>
+
+    <article>
+      <h1>สินค้ารุ่นแนะนำ</h1>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\phantom-vision-elite-id.jpg" alt="" width=40%></div>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\custom-nike-superfly-academy-by-you.jpg" alt=""
+          width=40%></div>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\mercurial-vapor-13-elite-neymar-jr-fg-cQlM6G.jpg" alt=""
+          width=30%></div>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\phantom-vision-academy-id.jpg" alt="" width=50%></div>
+      <br>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\Copa_20.3_Firm_Ground__EF1913_01_standard.jpg" alt=""
+          width=40%></div>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\Predator_20.3_Firm_Ground__EF1639_01_standard.jpg"
+          alt="" width=40%></div>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\Predator_20.3_Firm_Ground__EG0908_01_standard.jpg"
+          alt="" width=40%></div>
+      <div class="imgcenter"><img src="E:\HTML101\public\images\X_19.3_Firm_Ground__EG7177_01_standard.jpg" alt=""
+          width=40%></div>
+    </article>
+  </section>
+
+</body>
+
+</html>
